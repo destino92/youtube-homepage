@@ -204,6 +204,7 @@ input {
 
 .main-videos h2 {
 	margin: 20px 0;
+	font-weight: 900;
 }
 
 .area {
@@ -224,14 +225,6 @@ input {
 
 p.views {
 	color: #343434;
-}
-
-.videos h2 {
-	font-weight: 700;
-}
-
-.videos h4 {
-	font-weight: 600;
 }
 
 .video p {
@@ -285,6 +278,7 @@ p.views {
 
 .mini h4 {
 	margin-top: 13px;
+	font-weight: 700;
 }
 
 .mini p {
@@ -310,6 +304,7 @@ li.mini:nth-child(2) {
 
 .video h4 {
 	margin-top: 15px;
+	font-weight: 300;
 }
 
 .single-channel .video p {
@@ -330,7 +325,7 @@ li.mini:nth-child(2) {
 }
 
 .channel-name {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 }
 
