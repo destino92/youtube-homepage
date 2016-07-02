@@ -11,7 +11,7 @@
   <link href="css/main.css" rel="stylesheet">
 
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
   <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -28,25 +28,24 @@
 </head>
 
 <body>
-  
+
   <header>
     <div class="container-fluid">
       <div class="row">
+        
         <div class="col-md-2">
-          <a href="#">
-            <img src="images/logo.png" class="logo">
-          </a>
+          <a href="#"><img src="images/logo.png" class="logo"></a>
           <a href="#" id="menu-toggle">
             <img src="images/menu.png">
           </a>
-        </div><!-- End Logo & Menu-Toggle -->
+        </div> <!-- End Logo & Menu-Toggle -->
 
         <div class="col-md-5">
           <form><input placeholder="Type to search..." type="text"></form>
         </div><!-- End Search-Bar -->
 
         <div class="col-md-5">
-          <ul class="user-info">
+          <ul id="user-info">
             <li><a href="#" class="button">Upload</a></li>
             <li>
               <ul class="notifications">
@@ -62,76 +61,88 @@
                 <a href="#">Log out</a>
               </div>
             </li>
-          </ul><!-- End Ul -->
-        </div><!-- End Upload and profile Section -->
-        
-      </div><!-- End Row -->
-    </div><!-- End Container-Fluid -->
-  </header><!-- End Header -->
+          </ul> <!-- End Ul -->
+        </div> <!-- End User Information -->
+
+      </div> <!-- End Row -->
+    </div> <!-- End Container-Fluid -->
+  </header> <!-- End Header -->
 
   <hr>
 
   <div class="container-fluid">
     <div class="row">
-      <ul class="tabs">
+
+      <ul class="tab">
         <li class="active">Home</li>
         <li>Trending</li>
         <li>Subscriptions</li>
-      </ul><!-- End Tabs -->
+      </ul> <!-- End Tabs -->
 
       <hr>
 
       <div class="main-videos">
         <div class="col-md-4 video">
+
           <div class="area">
             <div class="mask">
+
               <div class="vertical-align">
                 <i class="fa fa-play-circle"></i>
                 <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+              </div> <!-- End Vertical Align -->
 
-              <img src="images/video.png" alt="video" class="img-responsive">
-              <span class="duration">44:03</span>
+            </div> <!-- End Mask / Hover -->
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            <img src="images/video.png" alt="video" class="img-responsive">
+            <span class="duration">44:03</span>
+
+          </div> <!-- End Area -->
 
           <h2>West Super Bowl 2015</h2>
           <p><span>9 Days Ago</span> By <a href="#">WestSuperBowl</a> - 10 123 123 Views</p>
-        </div><!-- End Col-md-4 -->
+          
+        </div> <!-- End Col-md-4 -->
 
-        <div class="col-md-4 video">
+        <div class="col-md-4">
+
           <div class="area">
             <div class="mask">
+
               <div class="vertical-align">
                 <i class="fa fa-play-circle"></i>
                 <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+              </div> <!-- End Vertical Align -->
 
-              <img src="images/video2.png" alt="video" class="img-responsive">
-              <span class="duration">44:03</span>
+            </div> <!-- End Mask / Hover -->
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            <img src="images/video2.png" alt="video" class="img-responsive">
+            <span class="duration">44:03</span>
+
+            
+          </div> <!-- End Area -->
 
           <h2>Daft Punk - Get Lucky</h2>
           <p><span>6 Days Ago</span> By <a href="#">DaftPunkVEVO</a> - 83 238 234 Views</p>
-        </div><!-- End Col-md-4 -->
+          
+        </div> <!-- End Col-md-4 -->
 
         <ul class="mini">
           <li class="col-md-2 video mini">
             <div class="area">
               <div class="mask">
+
                 <div class="vertical-align">
                   <i class="fa fa-play-circle"></i>
                   <p>Play Now</p>
-                </div><!-- End Vertical Align -->
+                </div> <!-- End Vertical Align -->
 
-                <img src="images/video3.png" alt="video" class="img-responsive">
-                <span class="duration">4:03</span>
+              </div> <!-- End Mask / Hover -->
 
-              </div><!-- End Mask/Hover -->
-            </div><!-- End Area -->
+              <img src="images/video3.png" alt="video" class="img-responsive">
+              <span class="duration">4:03</span>
+
+            </div> <!-- End Area -->
 
             <h4>Shakira - Waka Waka</h4>
             <p><span>2 Weeks Ago</span> By <a href="#">ShakiraVEVO</a></p>
@@ -140,16 +151,18 @@
           <li class="col-md-2 video mini">
             <div class="area">
               <div class="mask">
+
                 <div class="vertical-align">
                   <i class="fa fa-play-circle"></i>
                   <p>Play Now</p>
-                </div><!-- End Vertical Align -->
+                </div> <!-- End Vertical Align -->
 
-                <img src="images/video4.png" alt="video" class="img-responsive">
-                <span class="duration">4:03</span>
+              </div> <!-- End Mask / Hover -->
 
-              </div><!-- End Mask/Hover -->
-            </div><!-- End Area -->
+              <img src="images/video4.png" alt="video" class="img-responsive">
+              <span class="duration">4:03</span>
+
+            </div> <!-- End Area -->
 
             <h4>Nike Air Mag Replicas</h4>
             <p><span>2 Weeks Ago</span> By <a href="#">NikeShoes</a></p>
@@ -158,273 +171,301 @@
           <li class="col-md-2 video mini">
             <div class="area">
               <div class="mask">
+
                 <div class="vertical-align">
                   <i class="fa fa-play-circle"></i>
                   <p>Play Now</p>
-                </div><!-- End Vertical Align -->
+                </div> <!-- End Vertical Align -->
 
-                <img src="images/video5.png" alt="video" class="img-responsive">
-                <span class="duration">4:03</span>
+             </div> <!-- End Mask / Hover -->
 
-              </div><!-- End Mask/Hover -->
-            </div><!-- End Area -->
+              <img src="images/video5.png" alt="video" class="img-responsive">
+              <span class="duration">4:03</span>
 
-            <h4>Ibrahimovic Risks Everything</h4>
+            </div> <!-- End Area -->
+
+            <h4>Ibrahimović Risks Every...</h4>
             <p><span>2 Weeks Ago</span> By <a href="#">NikeFootball</a></p>
             <p class="views">21 938 743</p>
           </li>
           <li class="col-md-2 video mini">
             <div class="area">
               <div class="mask">
+
                 <div class="vertical-align">
                   <i class="fa fa-play-circle"></i>
                   <p>Play Now</p>
-                </div><!-- End Vertical Align -->
+                </div> <!-- End Vertical Align -->
 
-                <img src="images/video6.png" alt="video" class="img-responsive">
-                <span class="duration">4:03</span>
+              </div> <!-- End Mask / Hover -->
 
-              </div><!-- End Mask/Hover -->
-            </div><!-- End Area -->
+              <img src="images/video6.png" alt="video" class="img-responsive">
+              <span class="duration">4:03</span>
 
-            <h4>Riahnna Interview</h4>
+            </div> <!-- End Area -->
+
+            <h4>Rihanna Interview</h4>
             <p><span>2 Weeks Ago</span> By <a href="#">RihannaVEVO</a></p>
             <p class="views">21 938 743</p>
           </li>
         </ul>
-      </div><!-- End Main Videos -->
 
-    </div><!-- End Row -->
-  </div><!-- End Container-Fluid -->
+      </div> <!-- End Main Videos -->
+
+    </div> <!-- End Row -->
+  </div> <!-- End Container-Fluid -->
 
   <hr>
 
   <div class="container-fluid">
     <div class="row">
       <div class="single-channel">
+      
         <div class="col-md-3 channel-bio">
-          <div class="channel-name">
-            <img src="images/shoes.png"> NikeShoes
-          </div>
+
+          <div class="channel-name"><img src="images/shoes.png"> NikeShoes</div>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aperiam quam consectetur minima fugit dolor ex quis minus cupiditate aliquam labore, quibusdam error illum esse laboriosam, illo quos nam nesciunt!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at risus molestie, porttitor sapien sed, hendrerit mauris. Nam et turpis sed lectus venenatis tristique sed scelerisque nisl. </p>
           <a href="#" class="button">More Videos</a>
+
         </div><!-- End Channel-Bio -->
 
         <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/channel1.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Nike Air Max Review</h4>
-          <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
-          <p class="views">429 384 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-        <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+         <div class="col-md-3 video">
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
+
 
               <img src="images/channel2.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Nike Dots Review</h4>
-          <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
-          <p class="views">429 384 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-        <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+         <div class="col-md-3 video">
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/channel3.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Nike Air Max Review</h4>
-          <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
-          <p class="views">429 384 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-      </div><!-- End Single Channel -->
-    </div><!-- End Row -->
-  </div><!-- End Container-Fluid -->
+      </div> <!-- End Single Channel -->
+    </div> <!-- End Row -->
+  </div> <!-- End Container-Fluid -->
 
   <hr>
 
   <div class="container-fluid">
     <div class="row">
       <div class="single-channel">
+      
         <div class="col-md-3 channel-bio">
-          <div class="channel-name">
-            <img src="images/shakira.png"> ShakiraVevo
-          </div>
+
+          <div class="channel-name"><img src="images/shakira.png"> ShakiraVEVO</div>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aperiam quam consectetur minima fugit dolor ex quis minus cupiditate aliquam labore, quibusdam error illum esse laboriosam, illo quos nam nesciunt!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at risus molestie, porttitor sapien sed, hendrerit mauris. Nam et turpis sed lectus venenatis tristique sed scelerisque nisl. </p>
           <a href="#" class="button">More Videos</a>
+
         </div><!-- End Channel-Bio -->
 
         <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/shakira1.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Shakira - Can't Remember to forget You</h4>
-          <p><span>2 Days Ago</span> By <a href="#">ShakiraVevo</a></p>
-          <p class="views">20 841 978 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-        <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+         <div class="col-md-3 video">
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/shakira2.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Shakira VEVO Interview 2015</h4>
-          <p><span>4 Days Ago</span> By <a href="#">SharikaVEVO</a></p>
-          <p class="views">10 836 253 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-        <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+         <div class="col-md-3 video">
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/shakira3.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Shakira Photoshoot</h4>
-          <p><span>1 Week Ago</span> By <a href="#">ShakiraVEVO</a></p>
-          <p class="views">3 346 782 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-      </div><!-- End Single Channel -->
-    </div><!-- End Row -->
-  </div><!-- End Container-Fluid -->
+      </div> <!-- End Single Channel -->
+    </div> <!-- End Row -->
+  </div> <!-- End Container-Fluid -->
 
   <hr>
 
   <div class="container-fluid">
     <div class="row">
       <div class="single-channel">
+      
         <div class="col-md-3 channel-bio">
-          <div class="channel-name">
-            <img src="images/nike.png"> NikeFootball
-          </div>
+
+          <div class="channel-name"><img src="images/nike.png"> NikeFootball</div>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aperiam quam consectetur minima fugit dolor ex quis minus cupiditate aliquam labore, quibusdam error illum esse laboriosam, illo quos nam nesciunt!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at risus molestie, porttitor sapien sed, hendrerit mauris. Nam et turpis sed lectus venenatis tristique sed scelerisque nisl. </p>
           <a href="#" class="button">More Videos</a>
+
         </div><!-- End Channel-Bio -->
 
         <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/football1.png" alt="video" class="img-responsive">
-              <span class="duration">3:26</span>
+              <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Brazil VS Portugal!</h4>
-          <p><span>3 Days Ago</span> By <a href="#">NikeFootball</a></p>
-          <p class="views">263 425 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-        <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+         <div class="col-md-3 video">
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/football2.png" alt="video" class="img-responsive">
-              <span class="duration">3:53</span>
+              <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Nike Football: The Last Game</h4>
-          <p><span>2 Weeks Ago</span> By <a href="#">NikeFootball</a></p>
-          <p class="views">841 978 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-        <div class="col-md-3 video">
-          <div class="area">
-            <div class="mask">
-              <div class="vertical-align">
-                <i class="fa fa-play-circle"></i>
-                <p>Play Now</p>
-              </div><!-- End Vertical Align -->
+         <div class="col-md-3 video">
+            <div class="area">
+              <div class="mask">
+
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->
+
+              </div> <!-- End Mask / Hover -->
 
               <img src="images/football3.png" alt="video" class="img-responsive">
               <span class="duration">4:03</span>
 
-            </div><!-- End Mask/Hover -->
-          </div><!-- End Area -->
+            </div> <!-- End Area -->
 
-          <h4>Cristiano Ronaldo</h4>
-          <p><span>3 Weeks Ago</span> By <a href="#">NikeFootball</a></p>
-          <p class="views">728 648 Views</p>
-        </div><!-- End Video -->
+            <h4>Nike Air Max Review</h4>
+            <p><span>3 Days Ago</span> By <a href="#">NikeShoes</a></p>
+            <p class="views">429 384 Views</p>          
+        </div> <!-- End Video -->
 
-      </div><!-- End Single Channel -->
-    </div><!-- End Row -->
-  </div><!-- End Container-Fluid -->
+      </div> <!-- End Single Channel -->
+    </div> <!-- End Row -->
+  </div> <!-- End Container-Fluid -->
 
   <hr>
 
   <footer>
+    
     <ul>
       <li><a href="#">About</a></li>
       <li><a href="#">Press & Blog</a></li>
@@ -442,9 +483,9 @@
       <li><a href="#">Try Something New</a></li>
     </ul>
 
-    <h4>Copyright &copy 2015 Youtube Inc.</h4>
+    <h4>Copyright &copy; 2015 Youtube Inc.</h4>
 
-  </footer><!-- End Footer -->
+  </footer> <!-- End Footer -->
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
