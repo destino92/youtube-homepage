@@ -19,6 +19,11 @@ a {
 a:hover {
 	color: #e00918;
 	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 span {
@@ -62,6 +67,11 @@ h1,h2,h3,h4,h5,h6 {
 	color: #e21725;
 	border: 2px solid #e21725;
 	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 /* Header */
@@ -176,6 +186,11 @@ input {
 .tab li:hover {
 	color: #000;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 .tab .active {
@@ -230,6 +245,11 @@ p.views {
 	display: block;
 	cursor: pointer;
 	opacity: 100;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 .vertical-align {
@@ -347,6 +367,11 @@ footer ul:nth-child(2) a {
 footer li a:hover {
 	color: #e00918;
 	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 footer h4 {
@@ -424,6 +449,11 @@ footer h4 {
 	margin-left: -300px;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 #sidebar-wrapper.active {
