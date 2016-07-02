@@ -18,6 +18,7 @@ a {
 
 a:hover {
 	color: #e00918;
+	text-decoration: none;
 }
 
 span {
@@ -285,4 +286,70 @@ p.views {
 
 li.mini:nth-child(2) {
 	margin-bottom: 30px;
+}
+
+.video h4 {
+	margin-top: 15px;
+}
+
+.single-channel .video p {
+	margin-top: 7px;
+}
+
+/* Channel Information Section */
+.channel-bio hr {
+	margin: 20px 0;
+}
+
+.channel-bio p {
+	text-align: justify;
+}
+
+.channel-bio .button {
+	margin-top: 10px;
+}
+
+.channel-name {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.channel-name img {
+	margin-right: 10px;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	padding: 0 0 30px;
+}
+
+footer li {
+	display: inline;
+	margin: 0 15px;
+}
+
+footer ul:nth-child(1) a {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
+footer ul:nth-child(2) {
+	margin: 20px 0;
+}
+
+footer ul:nth-child(2) a {
+	color: #282626;
+}
+
+footer li a:hover {
+	color: #e00918;
+	text-decoration: none;
+}
+
+footer h4 {
+	color: #aaa7a7;
+	font-weight: 300;
 }
